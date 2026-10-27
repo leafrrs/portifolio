@@ -1,0 +1,112 @@
+/* Estilos do Header Responsivo */
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 2px solid #38bdf8;
+  color: #f8fafc;
+  padding: 16px 36px;
+  display: flex;
+  justifyContent: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #f8fafc;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-logo span {
+  color: #38bdf8;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.header-link:hover {
+  color: #38bdf8;
+}
+
+.header-btn-projetos {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.88rem;
+  border: 1px solid #38bdf8;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.header-btn-projetos:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+/* Responsividade Mobile */
+@media (max-width: 600px) {
+  .header-container {
+    padding: 12px 14px;
+  }
+
+  .header-logo {
+    font-size: 1.1rem;
+  }
+
+  .header-nav {
+    gap: 12px;
+  }
+
+  .header-link {
+    font-size: 0.85rem;
+  }
+
+  .header-btn-projetos {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-container {
+    padding: 10px 10px;
+  }
+
+  .header-logo {
+    font-size: 1rem;
+  }
+
+  .header-nav {
+    gap: 8px;
+  }
+
+  .header-link {
+    font-size: 0.8rem;
+  }
+
+  .header-btn-projetos {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+  }
+}
