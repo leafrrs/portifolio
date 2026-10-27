@@ -2,6 +2,8 @@
 .header-container {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   background-color: rgba(15, 23, 42, 0.95);
   backdrop-filter: blur(12px);
@@ -9,7 +11,7 @@
   color: #f8fafc;
   padding: 16px 36px;
   display: flex;
-  justifyContent: space-between;
+  justify-content: space-between;
   align-items: center;
   z-index: 1000;
   box-sizing: border-box;
@@ -29,7 +31,7 @@
 
 .header-nav {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   align-items: center;
 }
 
@@ -49,7 +51,7 @@
 .header-btn-projetos {
   background-color: rgba(56, 189, 248, 0.15);
   color: #38bdf8;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 9999px;
   text-decoration: none;
   font-weight: 700;
@@ -67,7 +69,7 @@
 /* Responsividade Mobile */
 @media (max-width: 600px) {
   .header-container {
-    padding: 12px 14px;
+    padding: 12px 16px;
   }
 
   .header-logo {
@@ -75,7 +77,7 @@
   }
 
   .header-nav {
-    gap: 12px;
+    gap: 14px;
   }
 
   .header-link {
@@ -83,14 +85,14 @@
   }
 
   .header-btn-projetos {
-    padding: 6px 12px;
+    padding: 6px 14px;
     font-size: 0.8rem;
   }
 }
 
 @media (max-width: 380px) {
   .header-container {
-    padding: 10px 10px;
+    padding: 10px 12px;
   }
 
   .header-logo {
@@ -98,7 +100,7 @@
   }
 
   .header-nav {
-    gap: 8px;
+    gap: 10px;
   }
 
   .header-link {
