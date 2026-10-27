@@ -10,10 +10,10 @@ export function Header() {
         position: "fixed",
         top: 0,
         width: "100%",
-        backgroundColor: "rgba(255, 255, 255, 0.9)",
+        backgroundColor: "rgba(15, 23, 42, 0.95)",
         backdropFilter: "blur(12px)",
-        borderBottom: "1px solid #bae6fd",
-        color: "#0f172a",
+        borderBottom: "2px solid #38bdf8",
+        color: "#f8fafc",
         padding: "16px 40px",
         display: "flex",
         justifyContent: "space-between",
@@ -27,7 +27,7 @@ export function Header() {
         style={{
           fontWeight: "800",
           fontSize: "1.3rem",
-          color: "#0284c7",
+          color: "#f8fafc",
           textDecoration: "none",
         }}
       >
@@ -38,7 +38,7 @@ export function Header() {
         <a
           href="#apresentacao"
           style={{
-            color: "#334155",
+            color: "#cbd5e1",
             textDecoration: "none",
             fontWeight: 600,
             fontSize: "0.95rem",
@@ -50,7 +50,7 @@ export function Header() {
         <a
           href="#sobre"
           style={{
-            color: "#334155",
+            color: "#cbd5e1",
             textDecoration: "none",
             fontWeight: 600,
             fontSize: "0.95rem",
@@ -62,14 +62,14 @@ export function Header() {
         <a
           href="#projetos"
           style={{
-            backgroundColor: "#e0f2fe",
-            color: "#0284c7",
+            backgroundColor: "rgba(56, 189, 248, 0.15)",
+            color: "#38bdf8",
             padding: "8px 18px",
             borderRadius: "9999px",
             textDecoration: "none",
             fontWeight: 700,
             fontSize: "0.9rem",
-            border: "1px solid #bae6fd",
+            border: "1px solid #38bdf8",
             transition: "all 0.2s ease",
           }}
         >
