@@ -1,16 +1,36 @@
-# React + Vite
+# 🌐 Rafael Rodrigues — Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy to GitHub Pages](https://github.com/leafrrs/portifolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/leafrrs/portifolio/actions/workflows/deploy.yml)
+[![Acesse o Portfólio](https://img.shields.io/badge/Acesse-Portfólio%20Online-0284c7?style=flat&logo=firefox)](https://leafrrs.github.io/portifolio/)
 
-Currently, two official plugins are available:
+Portfólio interativo e moderno desenvolvido em **React**, **Vite** e **Framer Motion**, projetado para apresentar meus principais projetos e minha trajetória como Desenvolvedor Full Stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Projetos em Destaque
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. [Event Platform (Desafio Verzel 2026)](https://github.com/leafrrs/elite-dev-verzel-2026)
+- **Descrição:** Sistema Full Stack para criação, venda, validação e gestão de ingressos em tempo real para eventos físicos.
+- **Destaques:** Validação por QR Code com assinatura HMAC contra falsificações, controle de concorrência atômico para assentos e integração com TMDb via BFF.
+- **Stack:** React 19, TypeScript, Node.js, Express, Prisma ORM, SQLite, Zod.
 
-## Expanding the ESLint configuration
+### 2. [Reconecta — Doação e Circulação de Livros](https://github.com/leafrrs/reconecta)
+- **Descrição:** Plataforma comunitária alinhada ao ODS 4 da ONU (Educação de Qualidade) desenvolvida na ONG Recode, incentivando o acesso contínuo à leitura.
+- **Destaques:** Integração com Open Library API, autenticação segura com JWT e RBAC, e disparos de e-mails transacionais com Nodemailer.
+- **Stack:** React, Vite, Node.js, Express, Prisma ORM, SQLite, JWT, Nodemailer.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Front-end:** React 19, Vite, Framer Motion, CSS3 (Glassmorphism & Flexbox/Grid).
+- **Back-end:** Node.js, Express, TypeScript, Prisma ORM.
+- **Deploy:** GitHub Pages com GitHub Actions CI/CD.
+
+---
+
+## 📬 Contato
+
+- **LinkedIn:** [rafael-rodrigues-dos-santos-rrs](https://www.linkedin.com/in/rafael-rodrigues-dos-santos-rrs)
+- **GitHub:** [@leafrrs](https://github.com/leafrrs)
+- **E-mail:** [rafael.r_rs@hotmail.com](mailto:rafael.r_rs@hotmail.com)
